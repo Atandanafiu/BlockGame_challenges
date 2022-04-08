@@ -6,7 +6,6 @@ const { utils } = require("ethers");
 const R = require("ramda");
 
 /*
-
  _______ _________ _______  _______
 (  ____ \\__   __/(  ___  )(  ____ )
 | (    \/   ) (   | (   ) || (    )|
@@ -15,7 +14,6 @@ const R = require("ramda");
       ) |   | |   | |   | || (
 /\____) |   | |   | (___) || )
 \_______)   )_(   (_______)|/
-
 This deploy script is no longer in use, but is left for reference purposes!
 */
   const yourToken = await deploy("YourToken")
@@ -69,7 +67,7 @@ This deploy script is no longer in use, but is left for reference purposes!
     chalk.blue("packages/hardhat/artifacts/"),
     "\n\n"
   );
-};
+
 
 const deploy = async (
   contractName,
